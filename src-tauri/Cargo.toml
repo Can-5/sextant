@@ -1,0 +1,14 @@
+[package]
+name = "sextant"
+version = "1.0.0"
+description = "Sextant — yerel prompt kütüphanesi / your local prompt library"
+authors = ["ilkaycan"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+tauri = { version = "2", features = [] }
+dirs = "6"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
